@@ -1,8 +1,11 @@
-var x;
-x=$(document);
-x.ready(inicializar);
-
-function inicializar(){
-   
-
-}
+$(document).ready(function () {
+    $(".popup").fancybox({
+        openEffect: 'elastic',
+        closeEffect: 'elastic',
+        helpers: {
+            title: {
+                type: 'inside'
+            }
+        }
+    });
+});

@@ -8,10 +8,17 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="js/jquery-ui.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width:769px)">
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width:481px) and (max-width:768px)">
+    <link rel="stylesheet" href="css/movil.css" media="only screen and (max-width:480px)">
 
     <script src="js/resetjquery.js"></script>
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-1.7.1.min.js"></script>
     <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
     <script src="js/micodigo.js"></script>
 
     <title>Prueba Hawkers</title>
@@ -19,32 +26,89 @@
 
 <body>
 
-    <div class="contenedor">
+    <div id="contenedor">
         <header>
-            <div class="cont_video">
-                <iframe width="1117" height="549" src="https://www.youtube.com/embed/pGUusB1wI8A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen class="video"></iframe>
+            <div id="cont_video">
+                <iframe width="1117" height="549" src="https://www.youtube.com/embed/pGUusB1wI8A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id="video"></iframe>
             </div>
-            <div class="cont_banners">
-                <div class="cont_banner1">
-                    <img src="images/banner-1.jpg" alt="Banner 1" class="banner1">
+            <div id="cont_banners">
+                <div id="cont_banner1">
+                    <img src="images/banner-1.jpg" alt="Banner 1" id="banner1">
                 </div>
-                <div class="cont_banner2">
-                    <img src="images/banner-2.jpg" alt="Banner 2" class="banner2">
+                <div id="cont_banner2">
+                    <img src="images/banner-2.jpg" alt="Banner 2" id="banner2">
                 </div>
-                <div class="cont_banner3">
-                    <img src="images/banner-3.jpg" alt="Banner 3" class="banner3">
+                <div id="cont_banner3">
+                    <img src="images/banner-3.jpg" alt="Banner 3" id="banner3">
                 </div>
             </div>
         </header>
 
         <section>
-
+            <div id="cont_gafas">
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa1.jpg" title="CARBON BLACK · DARK ONE"><img src="images/gafa1.jpg" alt="gafas 1" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · DARK ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa2.jpg" title="CARBON BLACK · EMERALD ONE"><img src="images/gafa2.jpg" alt="gafas 2" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · EMERALD ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa3.jpg" title="CARBON BLACK · SKY ONE"><img src="images/gafa3.jpg" alt="gafas 3" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · SKY ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa4.jpg" title="CARBON BLACK · RUBY ONE"><img src="images/gafa4.jpg" alt="gafas 4" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · RUBY ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa5.jpg" title="CARBON BLACK · CLEAR BLUE ONE"><img src="images/gafa5.jpg" alt="gafas 5" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · CLEAR BLUE ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="cont_gafa">
+                    <a class="popup" href="images/gafa6.jpg" title="CARBON BLACK · NEBULA ONE"><img src="images/gafa6.jpg" alt="gafas 6" class="img_gafa"></a>
+                    <div class="texto">
+                        <a href="#" class="nombre_precio">
+                            <p class="nombre_gafa">CARBON BLACK · NEBULA ONE</p>
+                            <p class="precio">25€</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <div class="no_float"> </div>
 
         <footer>
-
+            <div id="pie">
+                <small>Prueba técnica · Jesús Sola Moreno</small>
+            </div>
         </footer>
 
     </div>

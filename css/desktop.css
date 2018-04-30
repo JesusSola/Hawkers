@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Tamaño escritorio*/
+
+#contenedor {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 460px;
+    max-width: 1200px;
+}
+
+#cont_video {
+    margin-left: 3.5%;
+    /*El 3.5% de 1200 es 42px*/
+    margin-right: 3.5%;
+}
+
+#video {
+    width: 100%;
+}
+
+/*-----BANNERS-----*/
+
+#cont_banner1 {
+    margin-left: 3.5%;
+}
+
+#cont_banner2 {
+    margin-right: 3.5%;
+}
+
+#cont_banner3 {
+    margin-left: 3.5%;
+}
+
+#banner1 {
+    width: 59%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#banner2 {
+    width: 35%;
+    display: inline-block;
+    float: right;
+}
+
+#banner3 {
+    width: 59%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+
+/*-----GAFAS-----*/
+
+.cont_gafa {
+    display: inline-block;
+    width: 30%;
+    margin-left: 1.2%;
+    margin-right: 1.2%;
+}
+
+#cont_gafas {
+    display: inline-block;
+    margin-left: 3.5%;
+    margin-right: 1.5%;
+}
+
+.nombre_gafa {
+    display: inline;
+    float: left;
+    margin-top: 17px;
+    font-size: 0.9em;
+}
+
+.precio {
+    display: inline;
+    float: right;
+    font-size: 0.9em;
+}
+
+.img_gafa {
+    width: 100%;
+    display: inline-block;
+}
